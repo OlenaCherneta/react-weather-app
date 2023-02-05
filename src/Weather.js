@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Weather.css";
 import axios from "axios";
-import FormattedDate from "./FormattedDate";
+
 import WeatherInfo from "./WeatherInfo";
 
   
@@ -27,7 +27,7 @@ export default function Weather (props){
      }
 
     function handleResponse(response) {
-      console.log(response.data);
+      
         setWeatherData({
           ready: true,
           temperature: response.data.main.temp,
