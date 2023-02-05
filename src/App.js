@@ -15,6 +15,7 @@ export default function App() {
             href="https://github.com/OlenaCherneta/react-weather-app"
             target="_blank"
             rel="noreferrer"
+            
           >
             open-sourced on GitHub
           </a>
