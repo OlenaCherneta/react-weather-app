@@ -9,7 +9,7 @@ export default function App() {
         <Weather defaultCity="London" />
 
         <footer>
-          This project was coded by OlenaCherneta and is{" "}
+          This project was coded by Olena Cherneta and is{" "}
           <a
             href="https://github.com/OlenaCherneta/react-weather-app"
             target="_blank"
